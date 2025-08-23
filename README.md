@@ -14,6 +14,7 @@ Open your terminal and run:
 # load the CAN kernel drivers
 sudo modprobe can
 sudo modprobe can_raw
+# for socketCAN
 sudo apt-get install can-utils
 ```
 
