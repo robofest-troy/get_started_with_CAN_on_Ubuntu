@@ -28,3 +28,32 @@ jinm@Aspire :~$ ip a
 9: can0: <NOARP ,ECHO > mtu 16 qdisc noop state DOWN group default qlen 10
 link/can
 ```
+
+## Bringing Up CAN
+
+By default, all CAN interfaces are down, and we need to bring them up before use it. To do this, run: 
+
+```bash
+sudo ip link set can0 type can bitrate 500000
+sudo ip link set can0 up
+```
+To see if a CAN is up or not, send a message using it as shown below:
+
+```bash
+cansend can0 123# abcdabcd
+```
+
+If there is nothing returned, that means it is working.
+
+## Testing CAN on Command Line
+
+For this part you will need to open the link below and follow the Loopback Test Section:
+*https://notes.rdu.im/system/linux/canbus/#loopback-test
+
+Your receiving terminal should look something like this:
+
+![receiver_terminal_output](receiver_terminal_output.png "get_started_with_CAN_on_Ubuntu")
+
+## Transmitting CAN Message in C++
+
+CAN messages also can be transmitted through programs. This is what we need to run our robot. Download hello_can.cpp and put it somewhere dedicated to CAN.
