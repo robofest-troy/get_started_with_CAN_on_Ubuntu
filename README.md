@@ -46,7 +46,7 @@ To see if a CAN is up or not, send a message using it as shown below:
 
 ```bash
 # send on one terminal
-cansend can0 123# abcdabcd
+cansend can0 123#abcdabcd
 ```
 
 If there is nothing returned, that means it is working.
