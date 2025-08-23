@@ -57,3 +57,24 @@ Your receiving terminal should look something like this:
 ## Transmitting CAN Message in C++
 
 CAN messages also can be transmitted through programs. This is what we need to run our robot. Download hello_can.cpp and put it somewhere dedicated to CAN.
+
+This C++ file can be built on the command line with:
+
+```bash
+sudo apt update
+sudo apt install build-essential
+g++ hello_can.cpp -o hello_can
+```
+
+Now, we can run the code with:
+
+```bash
+./hello_can
+```
+
+And it should return:
+
+
+```bash
+CAN 'Hello World!' frame sent successfully on can0.
+```
