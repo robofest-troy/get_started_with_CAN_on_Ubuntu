@@ -14,7 +14,7 @@ sudo modprobe can_raw
 sudo apt-get install can-utils
 ```
 
-And if your run:
+And if you run:
 
 
 ```bash
