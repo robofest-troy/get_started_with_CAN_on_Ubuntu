@@ -23,7 +23,7 @@ ip a
 Your output should be something like:
 
 ```bash
-jinm@Aspire :~$ ip a
+name@Aspire :~$ ip a
 ... ...
 9: can0: <NOARP ,ECHO > mtu 16 qdisc noop state DOWN group default qlen 10
 link/can
