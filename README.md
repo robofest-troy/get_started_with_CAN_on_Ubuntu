@@ -2,7 +2,7 @@
 
 ## Prep
 
-Before you start with this tutorial, make sure you have a USB to CAN Adapter. For this tutorial, I used RHO2.
+Before you start with this tutorial, make sure you have a USB to CAN Adapter. For this tutorial, I used RH02.
 
 ## Enabling CAN
 
