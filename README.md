@@ -155,6 +155,17 @@ make
 
 This is a modified version of: https://logos-red.com/blog/savvycan-installation-guide-building-and-compiling-from-source/
 
+### Monitoring
+
+Go to your SavvyCAN directory and run SavvyCAN
+
+```bash
+cd SavvyCAN/
+./SavvyCAN
+```
+
+Connection|Open Connection Window|Add New Device Connection|socketcand
+
 ## References
 * https://docs.nvidia.com/jetson/archives/r35.4.1/DeveloperGuide/text/HR/ControllerAreaNetworkCan.html
 * https://notes.rdu.im/system/linux/canbus/#loopback-test
