@@ -4,6 +4,8 @@
 
 Before you start with this tutorial, make sure you have a USB to CAN Adapter. For this tutorial, I used RH02.
 
+![RH02](RH02.jpg "get_started_with_CAN_on_Ubuntu")
+
 ## Enabling CAN
 
 These commands are referenced from Nvidia (Link in Reference Section)
