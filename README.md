@@ -119,6 +119,42 @@ After you run the command, a screen like the picture below should pop up.
 
 ![Qt_sign_in](Qt_sign_in.png "get_started_with_CAN_on_Ubuntu")
 
+After you get past that screen, keep going until you hit the installation path screen. When you hit the installation path screen, make sure it looks like the picture below.
+
+Remember your installation path, it’s under:
+
+/home/your_username/QT5.14.2
+
+![Qt_Installation_path](Qt_Installation_path.png "get_started_with_CAN_on_Ubuntu")
+
+Make sure you check this box and continue with the installation:
+
+![Qt_package](Qt_package.png "get_started_with_CAN_on_Ubuntu")
+
+### Compiling SavvyCAN
+
+First, we need to clone the repository with:
+
+```bash
+git clone https://github.com/collin80/SavvyCAN.git
+cd SavvyCAN
+git checkout V213
+```
+
+Then we need to build the makefiles with qmake (depending on where you installed it) using: 
+
+```bash
+~/Qt5.14.2/5.14.2/gcc_64/bin/qmake
+```
+
+At last, run:
+
+```bash
+make
+```
+
+This is a modified version of: https://logos-red.com/blog/savvycan-installation-guide-building-and-compiling-from-source/
+
 ## References
 * https://docs.nvidia.com/jetson/archives/r35.4.1/DeveloperGuide/text/HR/ControllerAreaNetworkCan.html
 * https://notes.rdu.im/system/linux/canbus/#loopback-test
