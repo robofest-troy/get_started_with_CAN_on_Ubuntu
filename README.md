@@ -164,7 +164,21 @@ cd SavvyCAN/
 ./SavvyCAN
 ```
 
-Connection|Open Connection Window|Add New Device Connection|socketcand
+After you run these commands, a window should pop up.
+
+![CAN_window](CAN_window.png "get_started_with_CAN_on_Ubuntu")
+
+On the window, click the Connection tab at the top and click Open Connection Window.
+
+![Open_new_window](Open_new_window.png "get_started_with_CAN_on_Ubuntu")
+
+A new window should now pop up, click the Add New Device Connection button and switch the connection to socketcand. Now you should be able to see your CAN interfaces under Available Bus(ses).
+
+![Device_Connection](Device_Connection.png "get_started_with_CAN_on_Ubuntu")
+
+The picture below shows what the screen looks like after the same CAN message is issued.
+
+![streamingSavvyCAN](streamingSavvyCAN.png "get_started_with_CAN_on_Ubuntu")
 
 ## References
 * https://docs.nvidia.com/jetson/archives/r35.4.1/DeveloperGuide/text/HR/ControllerAreaNetworkCan.html
