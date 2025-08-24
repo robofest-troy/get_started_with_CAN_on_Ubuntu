@@ -90,6 +90,33 @@ And it should return:
 CAN 'Hello World!' frame sent successfully on can0.
 ```
 
+## Streaming CAN Bus with SavvyCAN
+
+### Installation
+
+It may be tricky to install SavvyCAN on Linux. I have been able to install it by following the Logos Red tutorial mostly. However, if your Ubuntu is newer than or is 21.0, then you can't follow the tutorial exactly.
+
+First, you want to install the following libraries. Run:
+
+```bash
+sudo apt update
+sudo apt install qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools
+```
+
+Run the following command to download the .run file
+
+```bash
+wget "https://download.qt.io/archive/qt/5.14/5.14.2/qt-opensource-linux-x64-5.14.2.run"
+```
+
+After the file is downloaded, change permissions for it and run it.
+
+```bash
+sudo chmod +x qt-opensource-linux-x64-5.14.2.run
+./qt-opensource-linux-x64-5.14.2.run
+```
+
 ## References
 * https://docs.nvidia.com/jetson/archives/r35.4.1/DeveloperGuide/text/HR/ControllerAreaNetworkCan.html
 * https://notes.rdu.im/system/linux/canbus/#loopback-test
+* https://logos-red.com/blog/savvycan-installation-guide-building-and-compiling-from-source/
