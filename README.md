@@ -115,6 +115,9 @@ After the file is downloaded, change permissions for it and run it.
 sudo chmod +x qt-opensource-linux-x64-5.14.2.run
 ./qt-opensource-linux-x64-5.14.2.run
 ```
+After you run the command, a screen like the picture below should pop up.
+
+![Qt_sign_in](Qt_sign_in.png "get_started_with_CAN_on_Ubuntu")
 
 ## References
 * https://docs.nvidia.com/jetson/archives/r35.4.1/DeveloperGuide/text/HR/ControllerAreaNetworkCan.html
