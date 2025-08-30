@@ -173,7 +173,7 @@ On the window, click the Connection tab at the top and click Open Connection Win
 
 ![Open_new_window](Open_new_window.png "get_started_with_CAN_on_Ubuntu")
 
-A new window should now pop up, click the Add New Device Connection button and switch the connection to socketcand. Now you should be able to see your CAN interfaces under Available Bus(ses).*
+A new window should now pop up, click the Add New Device Connection button and switch the connection to QT SerialBus Devices. Now you should be able to see your CAN port under Port.*
 
 ![Device_Connection](Device_Connection.png "get_started_with_CAN_on_Ubuntu")
 
