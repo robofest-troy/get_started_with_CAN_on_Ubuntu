@@ -8,7 +8,7 @@ Before you start with this tutorial, make sure you have a USB to CAN Adapter. Fo
 
 ## Enabling CAN
 
-These commands are referenced from Nvidia (Link in Reference Section)
+**These commands are referenced from Nvidia (Link in Reference Section).**
 
 Open your terminal and run: 
 
@@ -29,7 +29,7 @@ ip a
 Your output should be something like:
 
 ```bash
-name@Aspire :~$ ip a
+name@Aspire: ~$ ip a
 ... ...
 9: can0: <NOARP ,ECHO > mtu 16 qdisc noop state DOWN group default qlen 10
 link/can
