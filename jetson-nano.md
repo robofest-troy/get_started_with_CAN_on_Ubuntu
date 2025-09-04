@@ -30,3 +30,5 @@ make -j4
 If successful, you should now see the `SavvyCAN` binary in your folder.
 
 ---
+
+!["CAN message"](can-message.png "CAN Message")
